@@ -1,0 +1,64 @@
+* {
+    box-sizing: content-box;
+}
+
+.container {
+    border: 5px solid rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 96vh;
+    padding: 10px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+}
+
+.num_txt {
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-size: x-large;
+    margin: 2px;
+    text-align: center;
+}
+
+.num_txt:focus {
+    border: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.num_result {
+    border-radius: 10px;
+    border: none;
+    width: 400px;
+    height: 40px;
+    font-size: x-large;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+    ;
+}
+
+.opbutton {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    border: 0px;
+    margin: 3px 5px 0px 0px;
+    border-radius: 5px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(214, 214, 214);
+}
+
+.opbutton:hover {
+    background-color: rgb(51, 51, 51);
+    cursor: pointer;
+}
+
+.opbutton:active {
+    background-color: rgb(78, 78, 78);
+}
